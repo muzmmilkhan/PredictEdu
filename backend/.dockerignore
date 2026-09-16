@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+notebook.ipynb
+student_data.csv
+README.md
+.python-version
