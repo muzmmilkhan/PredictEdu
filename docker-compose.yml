@@ -4,6 +4,8 @@ services:
       context: ./backend
     ports:
       - "8000:8000"
+    expose:
+      - "8000"
     environment:
       MONGODB_URI: ${MONGODB_URI}
     restart: unless-stopped
